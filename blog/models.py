@@ -7,6 +7,7 @@ from django.urls import reverse
 # object Relational Mapper 
 # サーバーが変わってもコードを変えなくていい
 # Djangoではpythonのコードでかける
+# エラー表記は落ち着いて対処
 
 class Post(models.Model):
     title = models.CharField(max_length=100)
